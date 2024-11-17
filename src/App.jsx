@@ -76,6 +76,8 @@ const App = () => {
             <h6>Made By : <a className='text-decoration-none text-danger' target='_blank' href="https://github.com/TechieWrekie">Paras dhiman</a></h6>
           </div>
         </div>
+
+        
       </div>
     </>
   )
