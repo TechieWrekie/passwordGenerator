@@ -35,6 +35,7 @@ const App = () => {
     passwordRef.current?.select()
     window.navigator.clipboard.writeText(password)
   }
+  console.log("test")
   return (
     <>
       <div className='container my-5  rounded-4 text-white' style={{ backgroundColor: "#1E2434", width: "800px", height: "290px" }}>
@@ -77,7 +78,7 @@ const App = () => {
           </div>
         </div>
 
-        
+
       </div>
     </>
   )
